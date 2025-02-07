@@ -3,4 +3,32 @@
 }
 .kesan {
     min-height: auto;
+    .wrap {
+        position: relative;
+        display: block;
+        padding: 16px;
+        border-top: 5px solid #777;
+        background: rgba($color: white, $alpha: 0.5);
+        .datax {
+            display: inline-block;
+            width: 49%;
+            vertical-align: top;
+            ul {
+                @media screen and (max-width: 768px) {
+                    padding: 0 16px;
+                }
+            }
+        }
+    }
+}
+
+.fa-ul {
+    @media screen and (max-width: 768px) {
+        margin-left: 0 !important;
+    }
+    .fa-li {
+        i {
+            color: #124646;
+        }
+    }
 }

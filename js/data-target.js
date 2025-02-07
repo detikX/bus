@@ -1,3 +1,9 @@
+Highcharts.setOptions({
+    lang: {
+        thousandsSep: '.'
+    }
+})
+
 Highcharts.chart('container-target', {
     chart: {
         type: 'column',
@@ -5,6 +11,9 @@ Highcharts.chart('container-target', {
     },
     title: {
         text: null,
+    },
+    credits: {
+        enabled: false //buat highcharts com
     },
     subtitle: {
         text: null,
@@ -23,12 +32,26 @@ Highcharts.chart('container-target', {
         }
     },
     tooltip: {
-        valueSuffix: ' (1000 MT)'
+        valueSuffix: ' (1000 MT)',
+        style: {
+            // fontWeight: 'bold',
+            fontFamily: 'Jost',
+            fontSize: '1rem'
+        }
     },
     plotOptions: {
         column: {
             pointPadding: 0.2,
-            borderWidth: 0
+            borderWidth: 0,
+            dataLabels: {
+                style: {
+                    // color: "#fafafa",
+                    font: 'normal 1.2rem "Jost", sans-serif',
+                    // lineHeight: '2rem'
+                    fontWeight: 'normal',
+                    textOutline: false
+                },
+            }
         }
     },
     series: [
