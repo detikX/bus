@@ -1,5 +1,16 @@
 .target {
-    min-height: auto;
+    .image {
+        min-height: auto;
+        width: 100%;
+        height: auto;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
 }
 .kesan {
     min-height: auto;
@@ -18,6 +29,16 @@
                     padding: 0 16px;
                 }
             }
+        }
+    }
+    .image {
+        width: 100%;
+        margin: 32px auto 0;
+        height: fit-content;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
     }
 }
