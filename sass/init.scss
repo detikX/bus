@@ -167,22 +167,22 @@ section {
     // background: #b9e7f2;
     // background: linear-gradient(to bottom, #003a70, #b9e7f2);
     position: relative;
-    &::before {
-        content: "";
-        position: fixed;
-        background: url("../img/batik.png");
-        background-attachment: fixed;
-        background-size: contain;
-        background-repeat: repeat;
-    }
+    // // &::before {
+    // //     content: "";
+    // //     position: fixed;
+    // //     background: url("../img/batik.png");
+    // //     background-attachment: fixed;
+    // //     background-size: contain;
+    // //     background-repeat: repeat;
+    // }
     h3 {
         // color: $colorred;
         font-family: "Race", sans-serif;
         font-weight: 400;
         color: #124646;
-        font-size: 2.3rem;
+        font-size: 2.6rem;
         @media screen and (max-width: 768px) {
-            font-size: 2rem;
+            font-size: 2.2rem;
         }
     }
 
