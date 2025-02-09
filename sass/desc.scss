@@ -29,8 +29,15 @@
                 width: 300px;
                 font-family: "Poppins";
                 font-size: 1rem;
+                .cek {
+                    display: inline-block;
+                    width: 80%;
+                    vertical-align: middle;
+                }
                 i {
-                    font-size: 2rem;
+                    font-size: 2.2rem;
+                    margin-right: 8px;
+                    display: inline-block;
                     vertical-align: middle;
                 }
                 &-one {
@@ -134,7 +141,7 @@
 
     .data-mob {
         position: relative;
-        top: -60px;
+        top: -70px;
         .data {
             background: white;
             margin-bottom: 8px;
