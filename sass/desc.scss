@@ -131,6 +131,16 @@
             height: 420px;
             // transform: ;
             // margin: 0 auto;
+            position: relative;
+            .harga {
+                position: absolute;
+                left: 50%;
+                top: 0;
+                transform: translate(-50%, -50%);
+                font-size: 2rem;
+                font-weight: bold;
+                // font-family: "race";
+            }
             img {
                 width: 100%;
                 height: 100%;
@@ -149,9 +159,18 @@
             padding: 8px;
             // background: transparent;
             // width: fit-content;
+            display: block;
             i {
                 font-size: 1.5rem;
-                margin-right: 3px;
+                margin-right: 8px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .cek {
+                display: inline-block;
+                width: 80%;
+                vertical-align: middle;
             }
         }
     }

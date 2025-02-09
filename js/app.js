@@ -1,3 +1,8 @@
+$(document).ready(function () {
+    AOS.init();
+})
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 let sections = gsap.utils.toArray(".panelx");
