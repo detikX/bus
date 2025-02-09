@@ -23,13 +23,39 @@ Highcharts.chart('container-target', {
         crosshair: true,
         accessibility: {
             description: 'Countries'
-        }
+        },
+        labels: {
+            // text: null,
+            // formatter: function () {
+            //     // var a = this.y.toString().replace('.', ',');
+            //     // return a + '%';
+            // },
+            style: {
+                // color: "#fafafa",
+                font: '14px "Jost", sans-serif',
+                // lineHeight: '2rem'
+                textOutline: false
+            }
+        },
     },
     yAxis: {
         min: 0,
         title: {
             text: null
-        }
+        },
+        labels: {
+            // text: null,
+            // formatter: function () {
+            //     // var a = this.y.toString().replace('.', ',');
+            //     // return a + '%';
+            // },
+            style: {
+                // color: "#fafafa",
+                font: '14px "Jost", sans-serif',
+                // lineHeight: '2rem'
+                textOutline: false
+            }
+        },
     },
     tooltip: {
         valueSuffix: ' (1000 MT)',
