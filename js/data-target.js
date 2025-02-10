@@ -7,7 +7,8 @@ Highcharts.setOptions({
 Highcharts.chart('container-target', {
     chart: {
         type: 'column',
-        backgroundColor: 'rgba(255,255,255,.3)'
+        backgroundColor: 'rgba(255,255,255,.3)',
+        // borderRadius: '16px'
     },
     title: {
         text: null,
