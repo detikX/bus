@@ -58,7 +58,7 @@ Highcharts.chart('container-target', {
         },
     },
     tooltip: {
-        valueSuffix: ' (1000 MT)',
+        valueSuffix: ' (Unit)',
         style: {
             // fontWeight: 'bold',
             fontFamily: 'Jost',

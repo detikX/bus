@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bus Listrik Mengaspal di Jakarta</title>
         <link rel="stylesheet" href="sass/bootstrap.min.css">
-        <link rel="stylesheet" href="sass/style.css">
+        <link rel="stylesheet" href="sass/animate.min.css">
         <link rel="stylesheet" href="sass/aos.css">
         <link rel="stylesheet" href="sass/all.css">
+        <link rel="stylesheet" href="sass/style.css">
     </head>
     <body>
         <main>
@@ -15,14 +16,14 @@
                 <div class="pesawat">
                     <img src="img/pesawat-lewat.png" alt="">
                 </div>
-                <div class="title">
+                <div class="title wow animate__animated animate__fadeInUpBig" data-wow-delay="1s">
                     <h2>Bus Listrik Mengaspal di Jakarta</h2>
                 </div>
                 <div class="img">
                     <img src="img/bumper1-02.png" alt="">
                 </div>
-                <div class="battery"></div>
-                <div class="img">
+                <div class="battery  wow animate__animated animate__fadeIn" data-wow-delay=".5s"></div>
+                <div class="img wow animate__animated animate__fadeIn">
                     <img src="img/bumper1-04.png" alt="">
                 </div>
             </section>
@@ -141,7 +142,7 @@
             </section>
             <section class="desc">
                 <div class="wrap-detikx">
-                    <h3>Harga Spesifikasi Bus Listrik</h3>
+                    <h3>Harga dan Spesifikasi Bus Listrik</h3>
                     <p>
                         CEO Vektr Mobiliti Indonesia Gilarsi W Setijono mengatakan bus dengan harga sekitar Rp5 miliar per satu unit tersebut secara utuh didatangkan dari China. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eos veritatis consectetur voluptates eveniet illo cumque. Nisi, ducimus iure cum inventore, enim culpa hic id eos fuga labore iste. Labore.
                     </p>
@@ -267,7 +268,7 @@
             </section>
             <section class="target">
                 <div class="wrap-detikx">
-                    <h3>Target Pengadaan Bus Listrik</h3>
+                    <h3>Pengadaan Bus Listrik</h3>
                     <p>Targetnya di tahun 2030 sudah menggunakan full 100% Bus listrik. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum mollitia vel fugit alias eos consectetur pariatur repudiandae? Beatae sint eius saepe illum inventore? Doloremque accusamus amet harum sint velit veritatis.</p>
                 </div>
                 <div class="wrap-detikx">
@@ -281,7 +282,12 @@
             <div class="wrap-detikx">
                 <h3>Keunggulan dan Kelemahan Bus Listrik</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam obcaecati dignissimos debitis neque repellendus dolorem cum nulla veniam fugit, iure ipsum fuga magni aperiam nobis? Ex facere excepturi voluptate.</p>
-                <div class="image">
+                <div
+                    class="image"
+                    data-aos="fade-in"
+                    data-aos-duration="800"
+                    data-aos-delay="0"
+                >
                     <img src="img/ilustrasi4.png" alt="">
                 </div>
                 <div class="wrap">
@@ -357,8 +363,92 @@
                 </p>
             </div>
         </section>
+        <section class="alasan">
+            <div class="wrap-detikx">
+                <h3>Fasilitas Bus Listrik</h3>
+                <!-- <div class="image">
+                    <img src="img/anak-sekolah.png" alt="">
+                </div> -->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius magni aliquid repellat voluptatum, nihil non quas quam assumenda reprehenderit asperiores temporibus quia deserunt iste consequatur tenetur deleniti adipisci porro praesentium.</p>
+                <div class="wrap">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div
+                                class="datav"
+                                data-aos="fade-in"
+                                data-aos-duration="800"
+                                data-aos-delay="0"
+                            >
+                                <i class="fas fa-wheelchair"></i>
+                                <div class="tex">Ramp masuk bus</div>
+                            </div>
+                            <div
+                                class="datav"
+                                data-aos="fade-in"
+                                data-aos-duration="800"
+                                data-aos-delay="100"
+                            >
+                                <i class="fab fa-usb"></i>
+                                <div class="tex">
+                                    Port USB untuk
+                                    <i>Charge</i>
+                                </div>
+                            </div>
+                            <div
+                                class="datav"
+                                data-aos="fade-in"
+                                data-aos-duration="800"
+                                data-aos-delay="200"
+                            >
+                                <i class="fas fa-sensor-alert"></i>
+                                <div class="tex">
+                                    Sensor Tombol Darurat
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                class="datav"
+                                data-aos="fade-in"
+                                data-aos-duration="800"
+                                data-aos-delay="300"
+                            >
+                                <i class="fas fa-cctv"></i>
+                                <div class="tex">
+                                    CCTV
+                                </div>
+                            </div>
+                            <div
+                                class="datav"
+                                data-aos="fade-in"
+                                data-aos-duration="800"
+                                data-aos-delay="400"
+                            >
+                                <!-- <i class="fab fa-envira"></i> -->
+                                <i class="fas fa-female"></i>
+                                <div class="tex">
+                                    Ruangan khusus perempuan
+                                </div>
+                            </div>
+                            <div
+                                class="datav"
+                                data-aos="fade-in"
+                                data-aos-duration="800"
+                                data-aos-delay="500"
+                            >
+                                <i class="fas fa-volume-up"></i>
+                                <div class="tex">
+                                    Informasi Audio
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/aos.js"></script>
     <!-- <script src="js/a"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
