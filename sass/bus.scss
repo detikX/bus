@@ -247,3 +247,16 @@
         object-fit: contain;
     }
 }
+
+.lala {
+    position: absolute;
+    top: 72px;
+    left: 16px;
+}
+
+.addon {
+    font-size: 3rem;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+    }
+}
