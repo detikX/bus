@@ -1,5 +1,33 @@
 .pengisian {
     min-height: auto;
+
+    .wall {
+        .place {
+            display: block;
+            margin-bottom: 24px;
+            .name {
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: white;
+                padding: 0 8px;
+                background: #225d4e;
+                width: fit-content;
+            }
+            .point {
+                // display: inline-block;
+                // vertical-align: top;
+                border-top: 3px solid #225d4e;
+                background: rgba(white, 0.7);
+                margin: 0;
+                padding: 8px 0px 8px 36px;
+            }
+            .location {
+                margin-bottom: 8px;
+                font-size: 1rem;
+            }
+        }
+    }
+
     @keyframes neonz {
         0%,
         100% {
