@@ -20,7 +20,7 @@ Highcharts.chart('container-target', {
         text: null,
     },
     xAxis: {
-        categories: ['2025', '2027', '2030'],
+        categories: ['2022', '2023', '2024', '2025'],
         crosshair: true,
         accessibility: {
             description: 'Countries'
@@ -85,7 +85,7 @@ Highcharts.chart('container-target', {
 
         {
             name: 'Bus Listrik',
-            data: [45321, 75000, 150000,]
+            data: [52, 100, 300, 500]
         }
     ]
 });
