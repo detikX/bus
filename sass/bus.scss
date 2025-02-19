@@ -3,15 +3,35 @@
     background: linear-gradient(to bottom, $colorred 0%, #8adbda 8%);
 }
 .containerx {
-    width: 400%;
+    width: 500%;
     height: 100vh;
     display: flex;
     flex-wrap: nowrap;
-
+    .rutex {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .bullet {
+        width: 35px;
+        height: 35px;
+        background: #49efc3;
+        border-radius: 50%;
+        text-align: center;
+        padding: 3px;
+        font-weight: 600;
+        color: #0a4e3c;
+        font-size: 1.2rem;
+        display: inline-block;
+        &.or {
+            background: #f7bd42;
+        }
+    }
     .namex {
         font-family: "jost";
         font-size: 1.2rem;
-        font-weight: bold;
+        display: inline-block;
+        width: 80%;
+        // font-weight: bold;
         @media screen and (max-width: 768px) {
             font-size: 0.9rem;
         }
@@ -104,6 +124,9 @@
         left: 65px;
         &-tops {
             top: 125px;
+        }
+        &-mintops {
+            top: -8px;
         }
         @media screen and (max-width: 768px) {
             width: 85%;
