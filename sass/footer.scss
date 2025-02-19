@@ -32,7 +32,7 @@
     .bus-silu {
         position: absolute;
         top: -32px;
-        right: 0;
+        right: -270px;
         // opacity: 0.9;
         // animation: neonz 1s linear infinite;
         animation-name: banner2;
@@ -43,8 +43,9 @@
         @media screen and (max-width: 768px) {
             position: absolute;
             top: -20px;
-            right: 0;
+            // right: 0;
             // opacity: 0.8;
+            animation-duration: 20s;
             width: 80px;
             height: auto;
         }
