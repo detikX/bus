@@ -10,6 +10,9 @@
     .rutex {
         display: block;
         margin-bottom: 8px;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 4px;
+        }
     }
     .bullet {
         width: 35px;
