@@ -13,6 +13,9 @@ Highcharts.chart('container-target', {
     title: {
         text: null,
     },
+    exporting: {
+        enabled: true
+    },
     credits: {
         enabled: false //buat highcharts com
     },

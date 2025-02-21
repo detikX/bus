@@ -226,21 +226,21 @@ section {
     &-next,
     &-prev {
         z-index: 17 !important;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
-        background: rgba(#ce9352, 0.8);
+        background: rgba(#284863, 0.8);
         &:focus,
         &:hover {
-            background: rgba(#ce9352, 0.5);
+            background: rgba(#284863, 0.5);
         }
         &::before {
-            font-family: "fontAwesome" !important;
-            font-size: 32px !important;
+            font-family: "Font Awesome 5 Pro" !important;
+            font-size: 16px !important;
             color: #fff !important;
             font-weight: 700 !important;
             @media screen and (max-width: 766px) {
-                font-size: 32px !important;
+                font-size: 16px !important;
             }
         }
     }
@@ -250,7 +250,7 @@ section {
             left: -16px !important;
         }
         &::before {
-            content: "\f104" !important;
+            content: "\f053" !important;
         }
     }
     &-next {
@@ -259,7 +259,7 @@ section {
             right: -16px !important;
         }
         &::before {
-            content: "\f105" !important;
+            content: "\f054" !important;
         }
     }
 }

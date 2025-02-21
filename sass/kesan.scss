@@ -20,11 +20,29 @@
         padding: 16px;
         border-top: 5px solid #777;
         background: rgba($color: white, $alpha: 0.5);
+        .sulap {
+            position: absolute;
+            right: 8px;
+            top: 0px;
+            font-size: 2rem;
+            cursor: pointer;
+            color: #124646;
+            transition: 0.3s;
+            &:hover {
+                color: #2b8383;
+            }
+        }
         .datax {
             display: inline-block;
             width: 49%;
             vertical-align: top;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
             ul {
+                li {
+                    // font-weight: 500;
+                }
                 @media screen and (max-width: 768px) {
                     padding: 0 16px;
                 }

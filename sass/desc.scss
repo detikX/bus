@@ -9,6 +9,35 @@
             object-fit: contain;
         }
     }
+
+    .hahaa {
+        .bungkus {
+            padding: 8px;
+            background: rgba($color: white, $alpha: 0.8);
+            border-top: 6px solid #124646;
+            .nama-pt {
+                font-size: 1.2rem;
+                font-weight: 600;
+                font-family: "Poppins";
+                margin-bottom: 4px;
+            }
+            i {
+                display: inline-block;
+                width: 30px;
+                text-align: center;
+                vertical-align: top;
+                height: 30px;
+                color: #124646;
+                font-size: 1.4rem;
+            }
+            .cek {
+                display: inline-block;
+                width: 80%;
+                vertical-align: top;
+                font-size: 1.1rem;
+            }
+        }
+    }
     .w-help {
         width: 75%;
         margin: 0 auto;
@@ -22,7 +51,7 @@
             .data {
                 position: absolute;
                 padding: 8px;
-                background: rgba($color: white, $alpha: 1);
+                background: rgba($color: white, $alpha: 0.8);
                 // background: #abffc5;
                 // font-size: 1.2rem;
                 // font-weight: bold;
@@ -30,9 +59,13 @@
                 width: 300px;
                 font-family: "Poppins";
                 font-size: 1rem;
+                // .d-block {
+                //     margin-bottom: 8px;
+                // }
                 .cek {
                     display: inline-block;
                     width: 80%;
+                    font-size: 0.9rem;
                     vertical-align: middle;
                 }
                 i {
@@ -40,6 +73,13 @@
                     margin-right: 8px;
                     display: inline-block;
                     vertical-align: middle;
+                    // font-size: 1.3rem;
+                    // margin-right: 0;
+                    // display: inline-block;
+                    // vertical-align: top;
+                    // width: 30px;
+                    // height: 30px;
+                    // text-align: center;
                 }
                 &-one {
                     left: 0;
@@ -189,4 +229,19 @@
     @media screen and (max-width: 768px) {
         display: block !important;
     }
+}
+
+.slider__counter {
+    position: absolute;
+    // bottom: -1rem;
+    // left: 1rem;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 0.9rem;
+    // font-weight: 600;
+    color: #124646;
+    // mix-blend-mode: difference;
+    pointer-events: none;
 }

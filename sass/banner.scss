@@ -47,7 +47,7 @@
         height: auto;
         @media screen and (max-width: 768px) {
             width: 100%;
-            transform: translate(-50%, -50%) scale(1.2);
+            transform: translate(-50%, -24%) scale(1.4);
         }
         img {
             width: 100%;
@@ -64,7 +64,8 @@
         width: 35%;
         @media screen and (max-width: 768px) {
             position: absolute;
-            bottom: 3rem;
+            bottom: initial;
+            top: 8rem;
             /* left: 3rem; */
             z-index: 5;
             left: initial;
@@ -99,7 +100,7 @@
         z-index: 5;
         transform: translate(-50%, -50%) rotate(90deg);
         @media screen and (max-width: 768px) {
-            top: 36%;
+            top: 43%;
             transform: translate(-50%, -50%) rotate(90deg) scale(0.8);
         }
 
@@ -159,4 +160,9 @@
             clip-path: inset(-18% 0 0 0);
         }
     }
+}
+
+.wihi {
+    font-weight: 500;
+    // transition: 0.3s;
 }
