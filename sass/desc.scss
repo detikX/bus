@@ -39,7 +39,7 @@
                 vertical-align: top;
                 font-size: 1.2rem;
                 @media screen and (max-width: 768px) {
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     width: 85%;
                 }
             }
@@ -218,6 +218,7 @@
             .cek {
                 display: inline-block;
                 width: 80%;
+                font-size: 1.1rem;
                 vertical-align: middle;
             }
         }
