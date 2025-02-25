@@ -46,7 +46,7 @@
         }
     }
     .w-help {
-        width: 75%;
+        // width: 75%;
         margin: 0 auto;
         position: relative;
         // height: 75vh;
@@ -87,6 +87,22 @@
                     // width: 30px;
                     // height: 30px;
                     // text-align: center;
+                }
+                &-zero {
+                    left: 36%;
+                    background: initial;
+                    text-align: center;
+                    /* color: white; */
+                    border-radius: 8px;
+                    top: 36%;
+                    background: rgba($color: #000000, $alpha: 0.5);
+                    // background: linear-gradient(to bottom, black, rgba(black, 0.3));
+                    h3 {
+                        font-size: 1.6rem;
+                        color: white;
+                        font-weight: bold;
+                        font-family: "Poppins";
+                    }
                 }
                 &-one {
                     left: 0;
@@ -208,6 +224,25 @@
             // background: transparent;
             // width: fit-content;
             display: block;
+            &-zero {
+                // left: 16%;
+                // background: #124646;
+                text-align: center;
+                background: linear-gradient(45deg, white, #ccc);
+                // border-radius: 8px;
+                // top: 0%;
+                // background: rgba(0, 0, 0, 0.5);
+                // position: absolute;
+                // width: 75%;
+                // // transform: translate(-50%, -50%);
+                h3 {
+                    font-size: 1.4rem;
+                    // color: white;
+
+                    font-weight: bold;
+                    font-family: "Poppins";
+                }
+            }
             i {
                 font-size: 1.5rem;
                 margin-right: 8px;
@@ -252,4 +287,26 @@
     color: #124646;
     // mix-blend-mode: difference;
     pointer-events: none;
+}
+
+.weleh {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    @media screen and (max-width: 768px) {
+        width: 90%;
+    }
+
+    // .slick-slide:not(.slick-active) [data-aos] {
+    //     opacity: 0 !important;
+    //     pointer-events: none;
+    // }
+
+    .slick-slide .data {
+        opacity: 0;
+    }
+
+    .slick-active .data {
+        opacity: 1;
+    }
 }

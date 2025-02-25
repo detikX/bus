@@ -27,7 +27,10 @@ $(".sulap").click(function () {
     $('.datax li').toggleClass('wihi')
 })
 
-
+// $('.busbus').slick();
+// $('.busbus').on('afterChange', function () {
+//     AOS.refresh(); // Refresh AOS on slide change
+// });
 // $('.hahaa').slick();
 
 // $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
@@ -40,7 +43,16 @@ $(".sulap").click(function () {
 
 // })
 
-var $slider = $('.hahaa');
+var $slider = $('.busbus');
+$('.slider-bus .data').attr({ 'data-aos': 'fade-in' })
+$('.slider-bus .data-one').attr({ 'data-aos-delay': '1000', 'data-aos-duration': '500' })
+$('.slider-bus .data-two').attr({ 'data-aos-delay': '1500', 'data-aos-duration': '500' })
+$('.slider-bus .data-three').attr({ 'data-aos-delay': '1700', 'data-aos-duration': '1500' })
+$('.slider-bus .data-four').attr({ 'data-aos-delay': '2000', 'data-aos-duration': '1500' })
+$('.slider-bus .data-five').attr({ 'data-aos-delay': '2500', 'data-aos-duration': '500' })
+$('.slider-bus .data-six').attr({ 'data-aos-delay': '3000', 'data-aos-duration': '500' })
+$('.slider-bus .data-zero').attr({ 'data-aos-delay': '3000', 'data-aos-duration': '2000' })
+$('.slider-bus .imagex').attr({ 'data-aos': 'fade-up', 'data-aos-delay': '1500', 'data-aos-duration': '1000' })
 
 if ($slider.length) {
     var currentSlide;
@@ -59,9 +71,25 @@ if ($slider.length) {
         updateSliderCounter(slick);
     });
 
+    $slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+        // $('.slider-bus .data').removeClass('animate__fadeIn'); // Remove previous animation
+        // $('.slider-bus .data').removeClass('animate__fadeIn');
+    });
     $slider.on('afterChange', function (event, slick, currentSlide) {
         updateSliderCounter(slick, currentSlide);
+        // $('.slider-bus .data').addClass('animate__animated animate__fadeIn');
+        // $('.slider-bus .data').addClass('animate__animated animate__fadeIn'); // Apply animation to active slide
+        AOS.refresh(); // Refresh AOS after slide change
     });
 
     $slider.slick();
 }
+
+// $('.slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+//     $('.slick-slide h2').removeClass('animate__fadeIn'); // Remove previous animation
+// });
+
+// $('.slider').on('afterChange', function (event, slick, currentSlide) {
+//     $('.slick-active h2').addClass('animate__animated animate__fadeIn'); // Apply animation to active slide
+//     AOS.refresh(); // Refresh AOS after slide change
+// });
