@@ -30,6 +30,7 @@
     }
 }
 .kesan {
+    @import "clock";
     min-height: auto;
     .wrap {
         position: relative;
@@ -79,7 +80,8 @@
         width: 100%;
         height: 360px;
         @media screen and (max-width: 768px) {
-            height: fit-content;
+            // height: fit-content;
+            height: 200px;
         }
         .org {
             position: absolute;
