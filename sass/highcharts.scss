@@ -2,11 +2,162 @@
 .highcharts-data-table table {
     min-width: 310px;
     max-width: 800px;
-    margin: 1em auto;
+    // margin: 1em auto;
+    position: relative;
+    // &::before {
+    // content: "";
+    // border-top: 32px solid #00d4dc;
+    // border-radius: 24px 24px 0 0;
+    // border-bottom: 24px solid #2a3a33;
+    .atap {
+        width: 100%;
+        height: 90px;
+        position: relative;
+        background-color: #00d4dc;
+        border-radius: 24px 24px 0 0;
+        @media screen and (max-width: 768px) {
+            height: 56px;
+        }
+        .judx {
+            position: absolute;
+            left: 50%;
+            border-radius: 24px;
+            background: rgba($color: #000000, $alpha: 0.5);
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            padding: 16px;
+            @media screen and (max-width: 768px) {
+                padding: 8px;
+            }
+            h4 {
+                color: white;
+                @media screen and (max-width: 768px) {
+                    font-size: 1rem;
+                    margin-bottom: 0;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .badan {
+        width: 100%;
+        height: 80px;
+        position: relative;
+        background-color: #00d4dc;
+        border-radius: 0 0 24px 24px;
+        @media screen and (max-width: 768px) {
+            height: 56px;
+        }
+    }
+    .roda {
+        width: 100%;
+        height: 60px;
+        position: relative;
+        z-index: -1;
+        // background-color: rgba($color: #2a3a33, $alpha: 0.7);
+        &-kanan {
+            width: 94px;
+            height: 62px;
+            border-radius: 16px;
+            background: #202020;
+            position: absolute;
+            right: 12%;
+            top: -32%;
+            @media screen and (max-width: 768px) {
+                width: 60px;
+                height: 40px;
+            }
+        }
+        &-kiri {
+            width: 94px;
+            height: 62px;
+            border-radius: 16px;
+            background: #202020;
+            position: absolute;
+            left: 12%;
+            top: -32%;
+            @media screen and (max-width: 768px) {
+                width: 60px;
+                height: 40px;
+            }
+        }
+    }
+
+    .lampu {
+        width: 100%;
+        height: 60px;
+        position: relative;
+        background-color: rgba($color: #2a3a33, $alpha: 0.7);
+        &-kanan {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            // border-radius: 2px;
+            background: white;
+            position: absolute;
+            right: 16%;
+            top: 24%;
+            box-shadow:
+                0 0 5px $colorred,
+                0 0 15px $colorred,
+                0 0 20px $colorred,
+                0 0 40px $colorred,
+                0 0 60px #00d4dc,
+                0 0 10px #202020,
+                0 0 98px #00d4dc;
+        }
+        &-kiri {
+            width: 35px;
+            box-shadow:
+                0 0 5px $colorred,
+                0 0 15px $colorred,
+                0 0 20px $colorred,
+                0 0 40px $colorred,
+                0 0 60px #00d4dc,
+                0 0 10px #202020,
+                0 0 98px #00d4dc;
+            height: 35px;
+            border-radius: 50%;
+            // border-radius: 2px;
+            background: white;
+            position: absolute;
+            left: 16%;
+            top: 24%;
+        }
+    }
+    .spion {
+        &-kanan {
+            right: -30px;
+            border-radius: 0 16px 16px 0;
+            @media screen and (max-width: 768px) {
+                right: -16px;
+            }
+        }
+        &-kiri {
+            left: -30px;
+            border-radius: 16px 0 0 16px;
+            @media screen and (max-width: 768px) {
+                left: -16px;
+            }
+        }
+        position: absolute;
+        top: 120px;
+        width: 30px;
+        height: 116px;
+        background-color: rgba(82, 82, 82, 0.5);
+        @media screen and (max-width: 768px) {
+            width: 16px;
+        }
+    }
+    // }
 }
 
 .containerxyz {
     height: 400px;
+    @media screen and (max-width: 768px) {
+        height: 300px;
+    }
 }
 
 .highcharts-data-table table {
@@ -47,4 +198,13 @@
 
 .highcharts-description {
     margin: 0.3rem 10px;
+}
+
+.pepet {
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    @media screen and (max-width: 768px) {
+        width: 85%;
+    }
 }

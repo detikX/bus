@@ -7,7 +7,7 @@ Highcharts.setOptions({
 Highcharts.chart('container-target', {
     chart: {
         type: 'column',
-        backgroundColor: 'rgba(255,255,255,.3)',
+        backgroundColor: 'rgba(255,255,255,.5)',
         // borderRadius: '16px'
     },
     title: {
@@ -36,8 +36,9 @@ Highcharts.chart('container-target', {
             // },
             style: {
                 // color: "#fafafa",
-                font: '14px "Jost", sans-serif',
+                font: 'bold 14px "Jost", sans-serif',
                 // lineHeight: '2rem'
+                // fontWeight: 'bold',
                 textOutline: false
             }
         },
@@ -55,7 +56,8 @@ Highcharts.chart('container-target', {
             // },
             style: {
                 // color: "#fafafa",
-                font: '14px "Jost", sans-serif',
+                color: '#777',
+                font: 'bold 14px "Jost", sans-serif',
                 // lineHeight: '2rem'
                 textOutline: false
             }
@@ -76,9 +78,9 @@ Highcharts.chart('container-target', {
             dataLabels: {
                 style: {
                     // color: "#fafafa",
-                    font: 'normal 1.2rem "Jost", sans-serif',
+                    font: 'bold 1.2rem "Jost", sans-serif',
                     // lineHeight: '2rem'
-                    fontWeight: 'normal',
+                    fontWeight: 'bold',
                     textOutline: false
                 },
             }

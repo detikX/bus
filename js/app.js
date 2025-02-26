@@ -52,7 +52,7 @@ $('.slider-bus .data-four').attr({ 'data-aos-delay': '2000', 'data-aos-duration'
 $('.slider-bus .data-five').attr({ 'data-aos-delay': '2500', 'data-aos-duration': '500' })
 $('.slider-bus .data-six').attr({ 'data-aos-delay': '3000', 'data-aos-duration': '500' })
 $('.slider-bus .data-zero').attr({ 'data-aos-delay': '3000', 'data-aos-duration': '2000' })
-$('.slider-bus .imagex').attr({ 'data-aos': 'fade-up', 'data-aos-delay': '1500', 'data-aos-duration': '1000' })
+$('.slider-bus .imagex').attr({ 'data-aos': 'fade-up', 'data-aos-delay': '500', 'data-aos-duration': '500' })
 
 if ($slider.length) {
     var currentSlide;
