@@ -51,6 +51,7 @@
                 font-weight: 600;
                 @media screen and (max-width: 768px) {
                     // width: 80%;
+                    font-size: 0.9rem;
                 }
             }
             .descx {
@@ -67,5 +68,14 @@
                 }
             }
         }
+    }
+}
+
+.wrap-haha {
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+    @media screen and (max-width: 768px) {
+        width: 85%;
     }
 }
