@@ -90,7 +90,7 @@ Highcharts.chart('container-target', {
 
         {
             name: 'Bus Listrik',
-            data: [52, 100, 300, 500]
+            data: [100, 100, 300, 500]
         }
     ]
 });

@@ -16,6 +16,10 @@
     .alls {
         margin-bottom: 16px;
         text-align: center;
+        font-size: 1.2rem;
+        @media screen and (max-width: 768px) {
+            font-size: 1.1rem;
+        }
         .jobs {
             font-weight: bold;
         }
