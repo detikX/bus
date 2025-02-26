@@ -279,14 +279,17 @@
     // bottom: -1rem;
     // left: 1rem;
     left: 50%;
-    top: 100%;
+    top: 103%;
     transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 0.9rem;
-    // font-weight: 600;
+    font-weight: 700;
     color: #124646;
     // mix-blend-mode: difference;
     pointer-events: none;
+    @media screen and (max-width: 768px) {
+        top: 100%;
+    }
 }
 
 .weleh {

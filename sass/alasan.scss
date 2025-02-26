@@ -79,3 +79,23 @@
         width: 85%;
     }
 }
+
+.papan {
+    background: rgba($color: white, $alpha: 0.6);
+    padding: 16px;
+    border-top: 3px solid #777;
+    position: relative;
+    text-align: center;
+    font-family: "Sakana";
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     left: -8px;
+    //     right: -8px;
+    //     top: 0;
+    //     bottom: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     border: 4px solid #777;
+    // }
+}
