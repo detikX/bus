@@ -260,14 +260,15 @@
     position: absolute;
     z-index: 8;
     right: 0;
-    width: 270px;
-    display: none;
+    width: 230px;
+    // display: none;
     bottom: 93px;
     animation: linear infinite;
     animation-name: banner2;
-    animation-duration: 20s;
+    animation-duration: 40s;
     @media screen and (max-width: 766px) {
         width: 130px;
+        animation-duration: 20s;
     }
     img {
         width: 100%;
